@@ -1,0 +1,25 @@
+ply
+format ascii 1.0
+comment Turtlepp-UpRfrontArm.ply
+comment v1.z:5 = 488-483; v2.z:7 = 488-481;  v3.z:9 = 488-479; v4.z:27 = 488-461;
+element vertex 7
+property float x
+property float y
+property float z
+element face 7
+property list uchar int vertex_indices
+end_header
+575	375	5
+579	370	0
+650	397	7
+724	384	9
+610	299	27
+555	309	0
+546	309	10
+3	0	2	1
+3	1	2	3
+3	1	3	5
+3	4	5	3
+4	0	1	5	6
+3	4	6	5
+5	0	6	4	3	2
